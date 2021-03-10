@@ -1,0 +1,135 @@
+	.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+	* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+		background-color: #5FA0A5;
+		font-size: 10px;
+		position: relative;
+	}
+
+div {
+  margin: 0 auto;
+  width: 500px;
+}
+
+	h1{
+		font-size: 2.5rem;
+		margin:0;
+		padding: 0;
+	}
+
+	p {
+		font-size: 1.2rem;
+		text-align: justify;
+		padding: 5px;
+	}
+
+	p.right{
+		text-align: right;
+		margin-right: 10px;
+	}
+
+	p.summary {
+		font-size: 1.4rem;
+		text-align: center;
+	}
+
+	span {
+		text-decoration: underline;
+	}
+
+	div.container {
+		margin: 0 auto;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		width: 500px;
+		height: calc(20px + 10px + 45px + 90px + 90px + 90px);
+	}
+
+	.flame {
+		margin: 0 auto;
+		background-color: #D1411A;
+		background: linear-gradient( to top, rgba(209, 26, 26, 1), rgba(209, 26, 26, 0.9), rgba(209, 65, 26, 1), rgba(222, 211, 94, 1) );
+		border-radius: 50%;
+		width: 10px;
+		height: 20px;
+		box-shadow: 0 0 20px yellow;
+	}
+
+	.flame:hover {
+		opacity: 0;
+    transition: 0.3s linear;
+	}
+
+	.wick {
+		margin: 0 auto;
+		width: 3px;
+		height: 10px;
+		background-color: #8EE6CA;		
+	}
+
+	.candle {
+		margin: 0 auto;
+		width: 15px;
+		height: 45px;
+		background-color: #8EE6CA;
+	}
+
+	div .box {
+		margin: 0 auto;
+		width: 100%;
+		height: 90px;
+		border-top-right-radius: 25px;
+		border-top-left-radius: 25px;
+	}
+
+	.top {
+		width: 200px !important;
+		background-color: #DC8990;
+	}
+
+	div .top.stripe{
+		margin: 0 auto;
+		background-color: #DA2F65 !important;
+		width: 200px;
+		height: 25px;
+	}
+
+	.mid {
+		width: 375px !important;
+		background-color: #DC8990;			
+	}
+
+	div .mid.stripe {
+		margin: 0 auto;
+		background-color: #DA2F65 !important;
+		width: 375px;
+		height: 25px;
+	}
+
+	.bottom {
+		width: 450px !important;
+		background-color: #DC8990;
+	}
+
+	div .bottom.stripe {
+		margin: 0 auto;
+		background-color: #DA2F65 !important;
+		width: 450px;
+		height: 25px;
+		border-bottom-height: -25px;
+		border-bottom-style: dotted;
+		border-bottom-color: #FFF;
+	}
+
+	.miggy {
+		margin-top: -15%;
+		color:#6B1D9F;
+		font-size: 2.5rem;
+		font-family: 'Great Vibes', cursive;
+	}
+
+	span .sig {
+		text-align: right;
+		text-decoration: none !important;
+	}
